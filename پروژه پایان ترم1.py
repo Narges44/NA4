@@ -67,9 +67,7 @@ def help1 ():
         print(" add ------ you can add national_code and according to add the rest of the specifications and become a member of the libary . ")
         print (" remove ------ you can remove national_code and the rest of the specifications  .")
         print (" edit ------ you can edit your all specifications. ")
-        print (" borrow ------ you can see all the details of this section.  ")
         print (" display ------ you can show all specifications. ")
-        print (" search ------ you can search as national_code or libary_register_code. ")
         print (" exit ------ you can exit this program whenever you want. ")
         
         
@@ -192,7 +190,7 @@ while True :
     elif user == "human" :
         libarys = {}
         while True :
-            user = input (" add , remove , edit , search , borrow , help , exit ,display , delit   ")
+            user = input (" add , remove , edit , help , exit ,display , delit   ")
             if user == "add":
                 add1()
             elif user == "remove":
